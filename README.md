@@ -3,7 +3,9 @@
 
 **Liên hệ:**  
 Nguyễn Hoàng Hải, Trường Đại học Bách Khoa - ĐHQG-HCM,email: hoanghai@hcmut.edu.vn
+
 Hoàng Trọng Tấn, email: httandayonline@gmail.com
+
 Nhóm trao đổi: https://www.facebook.com/groups/pytex
 
 `PyTeX` là một thư viện Python được thiết kế để hỗ trợ xử lý và trích xuất thông tin từ các tệp LaTeX (`.tex`), đặc biệt khi sử dụng với gói `ex_test.sty`. Thư viện này giúp đơn giản hóa việc tạo ngân hàng câu hỏi, trích xuất nội dung, và thực hiện nhiều tác vụ liên quan khác trong quá trình soạn thảo tài liệu.
