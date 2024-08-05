@@ -17,8 +17,9 @@ pip install git+https://github.com/nhhai-math/PyTeX.git
 
 ## Ví dụ sử dụng
 
-Dưới đây là ví dụ minh họa cách sử dụng `PyTeX` để làm việc với các tệp LaTeX:
+Dưới đây là ví dụ minh họa cách sử dụng `PyTeX` để làm việc với các tệp LaTeX
 
+### Tìm kiếm theo ID câu hỏi
 ```python
 import PyTeX
 
