@@ -15,7 +15,7 @@ Hoàng Trọng Tấn (httandayonline@gmail.com)
 pip install git+https://github.com/nhhai-math/PyTeX.git
 ```
 
-## Ví dụ sử dụng
+## Lọc câu hỏi
 
 Dưới đây là ví dụ minh họa cách sử dụng `PyTeX` để làm việc với các tệp LaTeX
 
