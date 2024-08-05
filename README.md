@@ -12,12 +12,15 @@ Nhóm trao đổi: https://www.facebook.com/groups/pytex
 
 ## Cài đặt
 
-Để cài đặt `PyTeX`, bạn có thể sử dụng lệnh `pip` sau:
+Để cài đặt `PyTeX`, bạn có thể sử dụng lệnh `pip` thông qua `git` với dòng lệnh sau trên Terminal:
 
 ```bash
 pip install git+https://github.com/nhhai-math/PyTeX.git
 ```
-
+Cách khác là tải tệp `MyTeX.py` về theo đường dẫn sau rồi lưu tệp này chung với `main.py` đang soạn.
+```bash
+https://github.com/nhhai-math/PyTeX/blob/main/PyTeX/PyTeX.py
+```
 ## Lọc câu hỏi
 
 Dưới đây là ví dụ minh họa cách sử dụng `PyTeX` để lọc câu hỏi từ tệp dữ liệu `.tex`
