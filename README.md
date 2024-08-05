@@ -36,13 +36,7 @@ questions_bank = PyTeX.get_bank(data)
 # Lọc câu hỏi theo một ID cụ thể
 ID = "1D7N1-4"
 questions_found = questions_bank.find_by_id(ID)
-
-# Kiểm tra và hiển thị nội dung của câu hỏi đầu tiên trong danh sách tìm được
-if questions_found:
-    question = questions_found[0]
-    print(question['content'])
-else:
-    print("Không tìm thấy câu hỏi với ID này.")
+print(questions_found)
 ```
 ### Tìm kiếm theo loại câu hỏi (tự luận, trả lời ngắn, đúng/sai, trắc nghiệm 4 phương án)
 ```python
