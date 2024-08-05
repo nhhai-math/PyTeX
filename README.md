@@ -2,7 +2,7 @@
 # PyTeX
 
 **Liên hệ:**  
-Nguyễn Hoàng Hải, Trường Đại học Bách Khoa - ĐHQG-HCM, email: hoanghai@hcmut.edu.vn
+Nguyễn Hoàng Hải, Trường Đại học Bách Khoa - ĐHQG-HCM, email: hoanghai@hcmut.edu.vn\n
 Hoàng Trọng Tấn, email: httandayonline@gmail.com
 
 Nhóm trao đổi về PyTeX: https://www.facebook.com/groups/pytex
