@@ -47,5 +47,5 @@ else:
 Một vài cú pháp tìm kiếm theo ID:
 
 - `ID = "1D7N1-[45]"`: Tìm câu hỏi với ID có dạng 4 hoặc 5.
-- `ID = "1D7N1-."`: Tìm tất cả câu hỏi với định dạng toán.
+- `ID = "1D7N1-."`: Tìm tất cả câu hỏi với dạng bất kỳ.
 - `ID = "1D...-."`: Tìm tất cả câu hỏi lớp 11 phần Đại số.
