@@ -1,3 +1,6 @@
+#Thư viện PyTeX.py hỗ trợ soạn thảo tài liệu bằng gói ex_test.sty trong LaTeX
+#Liên hệ: Nguyễn Hoàng Hải (hoanghai@hcmut.edu.vn)
+#############################################################################
 import re
 from collections import defaultdict
 
