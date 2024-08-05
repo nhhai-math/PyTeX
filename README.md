@@ -17,7 +17,7 @@ pip install git+https://github.com/nhhai-math/PyTeX.git
 
 ## Lọc câu hỏi
 
-Dưới đây là ví dụ minh họa cách sử dụng `PyTeX` để làm việc với các tệp LaTeX
+Dưới đây là ví dụ minh họa cách sử dụng `PyTeX` để lọc câu hỏi từ tệp dữ liệu `.tex`
 
 ### Tìm kiếm theo ID câu hỏi
 ```python
