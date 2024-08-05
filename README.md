@@ -1,15 +1,40 @@
-# PyTeX 
-Liên hệ: Nguyễn Hoàng Hải (hoanghai@hcmut.edu.vn)
 
-`PyTeX` là một thư viện Python giúp bạn dễ dàng xử lý và trích xuất thông tin từ các tệp LaTeX (`.tex`) khi soạn thảo với gói ex_test.sty.
+# PyTeX 
+**Liên hệ:** Nguyễn Hoàng Hải (hoanghai@hcmut.edu.vn)
+
+`PyTeX` là một thư viện Python mạnh mẽ, hỗ trợ xử lý và trích xuất thông tin từ các tệp LaTeX (`.tex`), đặc biệt khi sử dụng với gói `ex_test.sty`. Thư viện này giúp đơn giản hóa việc tạo ngân hàng câu hỏi, trích xuất nội dung, và nhiều tác vụ liên quan khác trong quá trình soạn thảo tài liệu.
 
 ## Cài đặt
 
-Bạn có thể cài đặt `PyTeX` bằng cách sử dụng pip:
+Để cài đặt `PyTeX`, bạn có thể sử dụng lệnh pip sau:
 
 ```bash
 pip install git+https://github.com/nhhai-math/PyTeX.git
 ```
 
-## Sử dụng
-Xem trong liên kết sau: 
+## Ví dụ sử dụng
+
+```python
+import PyTeX
+
+# Đường dẫn đến tệp LaTeX của bạn
+file_path = 'TepCuaBan.tex'
+
+# Đọc nội dung của tệp LaTeX
+with open(file_path, 'r', encoding='utf-8') as file:
+    data = file.read()
+
+# Tạo ngân hàng câu hỏi từ dữ liệu đã đọc
+questions_bank = PyTeX.get_bank(data)
+
+# Lọc câu hỏi theo một ID cụ thể
+ID = "1D7N1-4"
+questions_found = questions_bank.find_by_id(ID)
+
+# Kiểm tra và hiển thị nội dung của câu hỏi đầu tiên trong danh sách tìm được
+if questions_found:
+    question = questions_found[0]
+    print(question['content'])
+else:
+    print("Không tìm thấy câu hỏi với ID này.")
+```
