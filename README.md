@@ -44,9 +44,29 @@ if questions_found:
 else:
     print("Không tìm thấy câu hỏi với ID này.")
 ```
+### Tìm kiếm theo loại câu hỏi (tự luận, trả lời ngắn, đúng/sai, trắc nghiệm 4 phương án)
+```python
+import PyTeX
 
-Một vài cú pháp tìm kiếm theo ID:
+# Đường dẫn đến tệp LaTeX của bạn
+file_path = 'DuongDan/TepCuaBan.tex'
 
-- `ID = "1D7N1-[45]"`: Tìm câu hỏi với ID có dạng 4 hoặc 5.
-- `ID = "1D7N1-."`: Tìm tất cả câu hỏi với dạng bất kỳ.
-- `ID = "1D...-."`: Tìm tất cả câu hỏi lớp 11 phần Đại số.
+# Đọc nội dung của tệp LaTeX
+with open(file_path, 'r', encoding='utf-8') as file:
+    data = file.read()
+
+# Tạo ngân hàng câu hỏi từ dữ liệu đã đọc
+questions_bank = PyTeX.get_bank(data)
+
+#Lọc câu hỏi trắc nghiệm
+loai = "choice"
+questions_found = questions_bank.find_by_type(loai)
+print(questions_found)
+```
+
+Cú pháp tìm kiếm theo loại câu hỏi:
+
+- `loai = "longans"`: Tìm câu hỏi tự luận.
+- `loai = "shortans"`: Tìm câu hỏi trả lời ngắn.
+- `loai = "choiceTF"`: Tìm câu hỏi đúng/sai.
+- `loai = "choice"`: Tìm câu hỏi trắc nghiệm 4 phương án.
