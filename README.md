@@ -2,7 +2,7 @@
 # PyTeX
 
 **Liên hệ:**  
-- Nguyễn Hoàng Hải, Trường Đại học Bách Khoa - ĐHQG-HCM, email: hoanghai@hcmut.edu.vn
+- Nguyễn Hoàng Hải, Trường Đại học Bách Khoa - ĐHQG-HCM, email: nghai.math@gmail.com, hoanghai@hcmut.edu.vn
 - Hoàng Trọng Tấn, email: httandayonline@gmail.com
 - Nhóm trao đổi về `PyTeX`: https://www.facebook.com/groups/pytex
 - Nhóm trao đổi về `ex_test.sty` trong LaTeX: https://www.facebook.com/groups/376563782695515
